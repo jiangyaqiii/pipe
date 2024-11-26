@@ -1,5 +1,5 @@
-git clone https://github.com/sdohuajia/pipe.git
-cd pipe 
+git clone https://github.com/jiangyaqiii/pipe_detail.git
+cd pipe_detail 
 pip install -r requirements.txt
 # USER_TOKEN
 # USER_EMAIL
