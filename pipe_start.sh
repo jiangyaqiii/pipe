@@ -1,9 +1,11 @@
 sudo apt-get update
 apt install git
 
+curl -s https://raw.githubusercontent.com/jiangyaqiii/envirment/main/python3_11.sh |bash
+
 git clone https://github.com/jiangyaqiii/pipe_detail.git
 cd pipe_detail 
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 # USER_TOKEN
 # USER_EMAIL
 # 将 token 和邮箱保存到 token.txt 文件中
