@@ -1,5 +1,5 @@
-sudo apt-get update
-apt install git
+apt update
+apt install -y git
 
 apt install -y python3-pip
 pip install aiohttp
@@ -12,9 +12,4 @@ pip install -r requirements.txt
 # 将 token 和邮箱保存到 token.txt 文件中
 echo "$token,$email" > token.txt
 
-if tmux ls | grep -q pipe; then
-    tmux kill-session -t pipe
-fi
-
-cd pipe
-python main.py
+python3 main.py
